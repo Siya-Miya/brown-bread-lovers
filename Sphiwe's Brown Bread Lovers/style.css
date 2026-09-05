@@ -1,0 +1,150 @@
+/* -------------------------
+   GENERAL
+------------------------- */
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    color: #222;
+
+    background-image: url("bread.jpg");
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+
+
+/* -------------------------
+   HEADER
+------------------------- */
+
+header {
+    background-image:
+        linear-gradient(rgba(22, 130, 59, 0.65), rgba(22, 130, 59, 0.65)),
+        url("bread.jpg");
+
+    background-size: cover;
+    background-position: center;
+
+    color: white;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    padding: 20px 8%;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 24px;
+}
+
+button {
+    background-color: #ffffff;
+    color: #16823b;
+
+    border: none;
+    border-radius: 6px;
+
+    padding: 12px 20px;
+
+    font-size: 16px;
+    font-weight: bold;
+
+    cursor: pointer;
+}
+
+
+/* -------------------------
+   SECTIONS
+------------------------- */
+
+section {
+    padding: 70px 8%;
+    text-align: center;
+}
+
+
+/* -------------------------
+   HERO SECTION
+------------------------- */
+
+section:first-child {
+    background-color: #eaf6ed;
+}
+
+section:first-child h2 {
+    font-size: 40px;
+    margin-bottom: 15px;
+}
+
+section:first-child p {
+    font-size: 18px;
+    margin-bottom: 30px;
+}
+
+section:first-child button {
+    background-color: #16823b;
+    color: white;
+}
+
+
+/* -------------------------
+   PRODUCT
+------------------------- */
+
+section:nth-child(2) {
+    background-color: white;
+}
+
+section:nth-child(2) img {
+    width: 250px;
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+section:nth-child(2) h3 {
+    font-size: 24px;
+    margin-bottom: 5px;
+}
+
+section:nth-child(2) p {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+/* -------------------------
+   LOCATION
+------------------------- */
+
+section:nth-child(3) {
+    background-color: #eaf6ed;
+}
+
+section:nth-child(3) p {
+    font-size: 18px;
+}
+
+
+/* -------------------------
+   FOOTER
+------------------------- */
+
+footer {
+    background-color: #126b32;
+    color: white;
+
+    text-align: center;
+
+    padding: 20px;
+}
+
+footer p {
+    margin: 0;
+}
